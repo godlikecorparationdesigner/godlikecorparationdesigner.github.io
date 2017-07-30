@@ -1,0 +1,66 @@
+@media screen and (max-width: 992px){
+
+	.rabota{
+		width: 70%;
+		margin:auto;
+	}
+
+		.rabota_2{
+		width: 70%;
+		margin:auto;
+		height: 
+	}
+
+		.rabota_3{
+		width: 70%;
+		margin:auto;
+	}
+
+	.profile_2{
+		font-size: 18px;
+	}
+
+	.my_name{
+		font-size: 25px;
+	}
+
+	.avatar_profile{
+		width: 130px;
+		height: 130px;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+
+		.rabota{
+		width: 70%;
+		margin:auto;
+	}
+
+		.rabota_2{
+		width: 70%;
+		margin:auto;
+		height: 
+	}
+
+		.rabota_3{
+		width: 70%;
+		margin:auto;
+	}
+
+		.profile_2{
+		font-size: 20px;
+	}
+
+	.my_name{
+		font-size: 27px;
+	}
+
+	.avatar_profile{
+		width: 135px;
+		height: 135px;
+	}
+
+	
+}
