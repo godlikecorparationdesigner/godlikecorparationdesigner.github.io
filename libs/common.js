@@ -1,7 +1,11 @@
 $(function() {
 
 	$(".rabota").animated("bounceInLeft","zoomOutDown");
-	$(".rabota_2").animated("bounceInRight","zoomOutDown");
+	$(".rabota_2").animated("bounceInLeft","zoomOutDown");
+	$(".rabota_3").animated("bounceInLeft","zoomOutDown");
+	$(".my_info").animated("slideInLeft","zoomOutDown");
+	$(".my_skill").animated("slideInRight","zoomOutDown");
+	$(".beografy_photo").animated("flipInY","zoomOutDown");
 
 	//SVG Fallback
 	if(!Modernizr.svg) {
