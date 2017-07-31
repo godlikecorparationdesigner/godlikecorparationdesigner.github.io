@@ -16,18 +16,37 @@
 		margin:auto;
 	}
 
-	.profile_2{
-		font-size: 18px;
+				.rabota_4{
+		width: 70%;
+		margin:auto;
+		height: 
 	}
 
-	.my_name{
+
+	.profile_2{
 		font-size: 25px;
 	}
 
-	.avatar_profile{
-		width: 130px;
-		height: 130px;
+	.my_name{
+		font-size: 35px;
 	}
+
+	.avatar_profile{
+		width: 200px;
+		height: 200px;
+	}
+
+	.beografy{
+	
+		font-size: 25px;
+			}
+
+			.footer{
+				font-size: 20px;
+			}
+
+
+
 
 }
 
@@ -49,17 +68,28 @@
 		margin:auto;
 	}
 
-		.profile_2{
-		font-size: 20px;
+			.rabota_4{
+		width: 70%;
+		margin:auto;
+		height: 
+	}
+
+
+.profile_2{
+		font-size: 25px;
 	}
 
 	.my_name{
-		font-size: 27px;
+		font-size: 35px;
 	}
 
 	.avatar_profile{
-		width: 135px;
-		height: 135px;
+		width: 200px;
+		height: 200px;
+	}
+
+	.galery_nazvanie{
+		width: 500px;
 	}
 
 	

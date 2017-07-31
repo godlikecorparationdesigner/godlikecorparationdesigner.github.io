@@ -22,7 +22,9 @@ $(document).ready(function () {
   $(".kartini").click(function () {
     $(".galery_3").hide(function () {
       $(".galery").show(500, function () {
-        $(".galery_2").show(500)
+        $(".galery_2").show(500, function () {
+          $('.info_block_2').show()
+        })
       })
     })
   })
@@ -56,6 +58,20 @@ $(document).ready(function () {
 
 </script>
 
+<script >
+  $(document).ready(function () {
+    $('.info_block_2').hide(function () {
+      $('.ska').click(function () {
+       $('.info_block_2').show(function () { 
+       })
+      })
+    })
+  })
+
+
+
+</script>
+
 
 
 
@@ -78,22 +94,38 @@ $(document).ready(function () {
     
 </div>
   <div class="info_block">
-    <h1><div style="text-align:center; width: 600px;margin: 2px auto;"><img src="img/galereya moix rabot.png"></div></h1>
-    <div style="display: flex;justify-content: center;"><a href="javascript://0" class="kartini">Картины</a><div class="akseksuari">Аксексуары</div><div class="vse">Все Работы</div></div>
+    <h1><div class="galery_nazvanie" style="text-align:center; width: 600px;margin: 2px auto;"><img src="img/galereya moix rabot.png"></div></h1>
+    <div style="display: flex;justify-content: center;"><a href="javascript://0" class="kartini">Картины</a><a href="javascript://0" class="akseksuari"><div>Аксексуары</div></a><a href="javascript://0" class="vse"><div>Все Работы</div></a></div>
     <div class="clear"></div>
+    <div class="galerei">
    <div class="galery"><div class="rabota"><div class="img_works"><img src="img/works/georeg5.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota"><div class="img_works"><img src="img/works/georeg3.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota"><div class="img_works"><img src="img/works/georeg4.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div></div>
 
   <div class="galery_2"><div class="rabota_2"><div class="img_works"><img src="img/works/georg7.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_2"><div class="img_works"><img src="img/works/georg6.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_2"><div class="img_works"><img src="img/works/georg8.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div></div>
-<div class="galery_3"><div class="rabota_3"><div class="img_works"><img style="height: 500px" src="img/works/georgaks2.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_3"><div class="img_works"><img src="img/works/akseksuar2.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_3"><div class="img_works"><img style="height: 500px" src="img/works/georgaks.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div></div>
+<div class="galery_3"><div class="rabota_3"><div class="img_works"><img style="height: 400px" src="img/works/georgaks2.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_3"><div class="img_works"><img src="img/works/akseksuar2.jpg" style="height: 400px"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_3"><div class="img_works"><img style="height: 400px; width: " src="img/works/georgaks.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div></div>
+</div>
+<div class="info_block_2">
+    <div class="galery"><div class="rabota_4"><div class="img_works"><img src="img/works/2str_raboti_1.jpg" style="height: 250px"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_4"><div class="img_works"><img style="height: 250px;" src="img/works/2str_raboti_2.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div><div class="rabota_4"><div class="img_works"><img style="height: 250px;"  src="img/works/2str_raboti_4.jpg"></div>Название Картины:ВЗГЛЯД НА ЖИЗНЬ.<br>Материалы:Акварель, бумага</div></div>
+</div>
+  <br><br><br>
+<div style="display: flex;justify-content: center;"><a href="javascript://0" class="ska">Ещё Работы</a></div><br><br><br>
   </div>
 
 
+
   <div class="beografy">
-    <div style="text-align: center; "><h2>-Давайте Познокомимся по ближе-</h2></div>
+    <div style="text-align: center; "><h2>-ОБО МНЕ-</h2></div>
     <div class="osnova_osnov">
-     <div class="my_info"><div style="text-align: center; font-size: 20px;">Не много о себе:</div><br>Доброго времени суток, меня зовут Александр. Занимаюсь разработкой сайтов с нуля, под ключ. Специалист по CMS WordPress, OpenCart, Elgg. Выполняю верстку и программирование сайтов. Добавляю весь необходимый функционал на сайт. Делаю адаптивную верстку на Bootstrap, таким образом Ваш сайт будет отлично выглядеть на всех устройствах. Любой начатый проект довожу до конца, постоянно совершенствую свой профессиональный уровень. Вы можете заказать у меня разработку сайта с нуля, или связаться со мной для сотрудничества.</div><div class="beografy_photo"><img src="img/mTiX9Xd1q1U.jpg" style="border-radius: 50%; width: 200px; height: 200px;"></div><div class="my_skill"><div style="text-align: center; font-size: 20px; margin-left: 20px;">ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ:</div><br>Дпрекрасные картины на заказ: на холсте, стенах, шелке украсят ваш дом первоклассными работами лучших мастеров.А так же шикарная роспись мебели, посуды, одежды, стекол, кафеля и корпусов: холодильник, телевизор, ноутбук, телефон.
+     <div class="my_info"><div style="text-align: center; font-size: 20px;">Не много о себе:</div><br>
+     Доброго времени Суток
+Меня зовут Геворг
+Я профессиональный художник, дизайнер.
+Создаю картины в разных стилях на заказ.
+Батик-роспись ткани.
+Масленная Акриловая и Акварельная, живопись-картины на холстах, двп, стенах, футболках и т.д
+А так же создаю красивейшие сувениры и украшения на любой вкус
+Звоните или пишите всегда рад.</div><div class="beografy_photo"><img src="img/mTiX9Xd1q1U.jpg" style="border-radius: 50%; width: 200px; height: 200px;"></div><div class="my_skill"><div style="text-align: center; font-size: 20px; margin-left: 20px;">ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ:</div><br>Дпрекрасные картины на заказ: на холсте, стенах, шелке украсят ваш дом первоклассными работами лучших мастеров.А так же шикарная роспись мебели, посуды, одежды, стекол, кафеля и корпусов: холодильник, телевизор, ноутбук, телефон.
      <br>
-     <div style="margin-top: 20px; font-size: 18px;"><b>Свзязь со мной:</b><br> <i class="fa fa-envelope" aria-hidden="true"></i> Mail<br><i class="fa fa-vk" aria-hidden="true"></i></div>
+     <div style="margin-top: 20px; font-size: 18px;"><b>Свзязь со мной:</b><br> <i class="fa fa-envelope" aria-hidden="true"></i>m.santa_777@mail.ru<br><i class="fa fa-vk" aria-hidden="true"></i></div>
      </div>
 
     </div>
@@ -105,9 +137,9 @@ $(document).ready(function () {
       <div class="gege">
       <div class="info_1">
       <img style="width: 50px; height: 50px;" src="img/map.png">
-      <br><b>Адрес:</b><Br>Узбекистан,Вокзал Г.Самарканд
+      <br><b>Адрес:</b><Br>Город:Самарканд,район Вокзал ул.Рудаки 28
       <div class="email">
-        <img style="width: 50px; height: 50px;" src="img/email-filled-closed-envelope.png"><br><b>Email</b><br>hashimoto1@mail.ru
+        <img style="width: 50px; height: 50px;" src="img/email-filled-closed-envelope.png"><br><b>Email</b><br>m.santa_777@mail.ru
       </div>
       <div class="vk">
         <i class="fa fa-vk fa-3x" aria-hidden="true" style="color: #ffda44" ></i><br><b>VK</b><br><a href="https://vk.com/id413743926"><b>Петросов Геворг</b></a>
@@ -118,8 +150,8 @@ $(document).ready(function () {
           <i class="fa fa-phone fa-3x" aria-hidden="true" style="color: #ffda44"></i><br><b>Телефоны</b><Br>Моб.Телефон:+998(91)3186011<br>Доп.Телефон:+998(91)5513777
         </div>
         <div class="clear"></div>
-         <div class="web_site" style="padding-top:25px;"><img src="img/browser.png" style="width: 50px; height: 50px;"><br><b>Веб-Сайт:</b><br>GODLIKE.COM</div>
-          <div class="web_site" style="padding-top:22px;"><i class="fa fa-telegram fa-3x" style="color: #ffda44" aria-hidden="true"></i><br><b>Веб-Сайт:</b><br>GODLIKE.COM</div>
+         <div class="web_site" style="padding-top:25px;"><img src="img/browser.png" style="width: 50px; height: 50px;"><br><b>Веб-Сайт:</b><br>artlive.tk</div>
+          <div class="web_site" style="padding-top:22px;"><i class="fa fa-telegram fa-3x" style="color: #ffda44" aria-hidden="true"></i><br><b>Телеграмм</b><br>@artlive.tk</div>
           
           </div>
       

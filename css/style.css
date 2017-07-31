@@ -35,7 +35,7 @@ a {
 	.head{
 		width: 100%;
 		height: 100vh;
-		background: url(https://github.com/godlikecorparationdesigner/img/blob/master/imgonline-com-ua-Compressed-Zayuec2bIwS.jpg?raw=true) no-repeat center fixed;
+		background: url(https://github.com/godlikecorparationdesigner/img/blob/master/imgonline-com-ua-Compressed-Zayuec2bIwS.jpg?raw=true) no-repeat center;
 		background-size: cover;
 		
 
@@ -184,7 +184,7 @@ a {
 
 .info_block{
 	width: 100%;
-	min-height: 1400px;
+	height: auto;
 	background-color:rgba(128, 128, 128, 0.46);
 
 }
@@ -221,8 +221,6 @@ a {
 	 background-color: white;
 	 flex-wrap: wrap;
 	 box-shadow: 4px 4px 4px 0 rgba(13,5,6,.3);
-
-
 	
 }
 
@@ -236,6 +234,16 @@ a {
 .rabota_3{
 	display: flex;
 	width: 30%;
+	padding: 5px;
+	 background-color: white;
+	 flex-wrap: wrap;
+	 box-shadow: 4px 4px 4px 0 rgba(13,5,6,.3);
+}
+
+.rabota_4{
+	display: flex;
+	width: 30%;
+	height: 300px;
 	padding: 5px;
 	 background-color: white;
 	 flex-wrap: wrap;
@@ -287,7 +295,7 @@ a {
 
 .beografy{
 	width: 100%;
-	height: 1000px;	
+	height: 500px;	
 	font-size: 14px;
 }
 
@@ -434,9 +442,82 @@ a {
   transform: translate(0, 4px);
 }
 
+/*Кнопка ещё*/
+.ska{
+	display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0,0,0,.5);
+  user-select: none;
+  padding: .7em 1.5em;
+  border: 1px solid rgb(80,32,0);
+  border-radius: 5px;
+  outline: none;
+  background: rgb(147,80,36) linear-gradient(rgb(106,58,26), rgb(147,80,36) 80%);
+  box-shadow:
+   0 6px rgb(86,38,6),
+   0 3px 15px rgba(0,0,0,.4),
+   inset 0 1px rgba(255,255,255,.3),
+   inset 0 0 3px rgba(255,255,255,.5);
+  transition: .2s;
+}
+
+.ska:hover{
+	 background: rgb(167,91,41) linear-gradient(rgb(126,69,31), rgb(167,91,41) 80%);
+}
+
+.ska:active{
+	background: rgb(120,63,25) linear-gradient(rgb(120,63,25) 20%, rgb(167,91,41));
+  	box-shadow:0 2px rgb(86,38,6),
+   0 1px 6px rgba(0,0,0,.4),
+   inset 0 1px rgba(255,255,255,.3),
+   inset 0 0 3px rgba(255,255,255,.5);
+  -webkit-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+}
+
 /*Конец*/
 
 .buton-social-header{
 	display: flex;
 	justify-content: center;
 }
+
+.footer{
+	background-color: #3c454d;
+	height: 500px;
+	color: white;
+
+}
+
+.info_1{
+	height: auto;
+	float: left;
+	width: 400px;
+}
+
+.info_2{
+	height: auto;
+	float: left;
+	
+}
+
+.email{
+	margin-top: 25px;
+}
+
+.vk{
+	margin-top: 25px;
+}
+
+.phone{
+	float: left;
+}
+
+.gege{
+	display: flex;
+	justify-content: center;
+	height: auto;
+}
+
