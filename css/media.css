@@ -3,23 +3,24 @@
 	.rabota{
 		width: 70%;
 		margin:auto;
+		 margin-top: 10px;
 	}
 
 		.rabota_2{
 		width: 70%;
 		margin:auto;
-		height: 
+		 margin-top: 10px;
 	}
 
 		.rabota_3{
 		width: 70%;
 		margin:auto;
+		 margin-top: 10px;
 	}
 
 				.rabota_4{
 		width: 70%;
-		margin:auto;
-		height: 
+		margin:auto; 
 	}
 
 
@@ -46,6 +47,11 @@
 			}
 
 
+			.rabota_4{
+				height: auto;
+				 margin-top: 10px;
+			}
+
 
 
 }
@@ -68,11 +74,13 @@
 		margin:auto;
 	}
 
+
 			.rabota_4{
-		width: 70%;
-		margin:auto;
-		height: 
-	}
+				height: auto;
+				 margin-top: 10px;
+			}
+
+
 
 
 .profile_2{
@@ -91,6 +99,7 @@
 	.galery_nazvanie{
 		width: 500px;
 	}
+
 
 	
 }

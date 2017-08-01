@@ -6,6 +6,7 @@ $(function() {
 	$(".my_info").animated("slideInLeft","zoomOutDown");
 	$(".my_skill").animated("slideInRight","zoomOutDown");
 	$(".beografy_photo").animated("flipInY","zoomOutDown");
+	$(".yakor").animated("flipInY","zoomOutDown")
 
 	//SVG Fallback
 	if(!Modernizr.svg) {
