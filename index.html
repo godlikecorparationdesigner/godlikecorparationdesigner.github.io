@@ -37,7 +37,9 @@ $(document).ready(function () {
   $(".akseksuari").click(function () {
     $(".galery_3").show(function () {
       $(".galery").hide(500, function () {
-        $(".galery_2").hide(500)
+        $(".galery_2").hide(function () {
+          $('.info_block_2').show(500)
+        })
       })
     })
   })
@@ -55,6 +57,18 @@ $(document).ready(function () {
      })
    })
 })
+
+
+
+</script>
+<script >
+  $(document).ready(function () {
+    $('.info_block_2').hide(function () {
+      $('.vse').click(function () {
+        $('.info_block_2').show()
+      })
+    })
+  })
 
 </script>
 
@@ -109,7 +123,7 @@ $(document).ready(function () {
     </div>
     <div style="text-align: center;" class="yakor"><h2>Галерея Моих Работ Ниже.</h2></div>
     </div>
-    
+
   <div class="info_block">
     <h1><div class="galery_nazvanie" style="text-align:center; width: 600px;margin: 2px auto;"><img src="img/galereya moix rabot.png"></div></h1>
     <div style="display: flex;justify-content: center;"><a href="javascript://0" class="kartini">Картины</a><a href="javascript://0" class="akseksuari"><div>Аксексуары</div></a><a href="javascript://0" class="vse"><div>Все Работы</div></a></div>
