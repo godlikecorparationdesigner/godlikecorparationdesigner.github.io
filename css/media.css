@@ -103,3 +103,12 @@
 
 	
 }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .icon {
+    background-image: url(https://psv4.userapi.com/c610129/u142452627/docs/87992246718f/iPhone_Retina.jpg?extra=3j7a28DzyrEx0rG818V9iXwLWnNVaLEBfuzv7HOvEs2TykhWtlNKEsMgVuChm7N3rBFmggIBNha9zH76kVATbMiMnfpZKoCOaQLmw6wQEUiiXT4v032bviSdng);
+  }
+}
